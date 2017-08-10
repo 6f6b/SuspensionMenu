@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5944C0F61F3C02750076FA05 /* 取消 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C0F31F3C02750076FA05 /* 取消 (1).png */; };
+		5944C0F71F3C02750076FA05 /* 取消 (1)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C0F41F3C02750076FA05 /* 取消 (1)@3x.png */; };
+		5944C0F81F3C02750076FA05 /* 取消 (1)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C0F51F3C02750076FA05 /* 取消 (1)@2x.png */; };
+		5944C0FE1F3C215A0076FA05 /* 默认图.png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C0FD1F3C215A0076FA05 /* 默认图.png */; };
+		594E96B71F39AB6F0095A99E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E96B61F39AB6F0095A99E /* AppDelegate.swift */; };
+		594E96B91F39AB6F0095A99E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E96B81F39AB6F0095A99E /* ViewController.swift */; };
+		594E96BC1F39AB6F0095A99E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594E96BA1F39AB6F0095A99E /* Main.storyboard */; };
+		594E96BE1F39AB6F0095A99E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594E96BD1F39AB6F0095A99E /* Assets.xcassets */; };
+		594E96C11F39AB6F0095A99E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594E96BF1F39AB6F0095A99E /* LaunchScreen.storyboard */; };
+		594E96CC1F39AB6F0095A99E /* SuspensionMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E96CB1F39AB6F0095A99E /* SuspensionMenuTests.swift */; };
+		594E96D71F39AB6F0095A99E /* SuspensionMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E96D61F39AB6F0095A99E /* SuspensionMenuUITests.swift */; };
+		594E96E51F39ABC70095A99E /* SupensionMenuContainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E96E41F39ABC70095A99E /* SupensionMenuContainView.swift */; };
+		594E96E71F39AC260095A99E /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E96E61F39AC260095A99E /* Tools.swift */; };
+		594E96E91F39AD2D0095A99E /* SuspensionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E96E81F39AD2D0095A99E /* SuspensionMenu.swift */; };
+		594E97041F3AE5F10095A99E /* SuspensionMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E97031F3AE5F10095A99E /* SuspensionMenuItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		594E96C81F39AB6F0095A99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594E96AB1F39AB6F0095A99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594E96B21F39AB6F0095A99E;
+			remoteInfo = SuspensionMenu;
+		};
+		594E96D31F39AB6F0095A99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594E96AB1F39AB6F0095A99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594E96B21F39AB6F0095A99E;
+			remoteInfo = SuspensionMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5944C0F31F3C02750076FA05 /* 取消 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消 (1).png"; sourceTree = "<group>"; };
+		5944C0F41F3C02750076FA05 /* 取消 (1)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消 (1)@3x.png"; sourceTree = "<group>"; };
+		5944C0F51F3C02750076FA05 /* 取消 (1)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消 (1)@2x.png"; sourceTree = "<group>"; };
+		5944C0FD1F3C215A0076FA05 /* 默认图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "默认图.png"; sourceTree = "<group>"; };
+		594E96B31F39AB6F0095A99E /* SuspensionMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuspensionMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		594E96B61F39AB6F0095A99E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		594E96B81F39AB6F0095A99E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		594E96BB1F39AB6F0095A99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		594E96BD1F39AB6F0095A99E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		594E96C01F39AB6F0095A99E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		594E96C21F39AB6F0095A99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594E96C71F39AB6F0095A99E /* SuspensionMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspensionMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		594E96CB1F39AB6F0095A99E /* SuspensionMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspensionMenuTests.swift; sourceTree = "<group>"; };
+		594E96CD1F39AB6F0095A99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594E96D21F39AB6F0095A99E /* SuspensionMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspensionMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		594E96D61F39AB6F0095A99E /* SuspensionMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspensionMenuUITests.swift; sourceTree = "<group>"; };
+		594E96D81F39AB6F0095A99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594E96E41F39ABC70095A99E /* SupensionMenuContainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupensionMenuContainView.swift; sourceTree = "<group>"; };
+		594E96E61F39AC260095A99E /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		594E96E81F39AD2D0095A99E /* SuspensionMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuspensionMenu.swift; sourceTree = "<group>"; };
+		594E97031F3AE5F10095A99E /* SuspensionMenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuspensionMenuItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		594E96B01F39AB6F0095A99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594E96C41F39AB6F0095A99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594E96CF1F39AB6F0095A99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594E96AA1F39AB6F0095A99E = {
+			isa = PBXGroup;
+			children = (
+				594E96B51F39AB6F0095A99E /* SuspensionMenu */,
+				594E96CA1F39AB6F0095A99E /* SuspensionMenuTests */,
+				594E96D51F39AB6F0095A99E /* SuspensionMenuUITests */,
+				594E96B41F39AB6F0095A99E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		594E96B41F39AB6F0095A99E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				594E96B31F39AB6F0095A99E /* SuspensionMenu.app */,
+				594E96C71F39AB6F0095A99E /* SuspensionMenuTests.xctest */,
+				594E96D21F39AB6F0095A99E /* SuspensionMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		594E96B51F39AB6F0095A99E /* SuspensionMenu */ = {
+			isa = PBXGroup;
+			children = (
+				594E96B61F39AB6F0095A99E /* AppDelegate.swift */,
+				594E96B81F39AB6F0095A99E /* ViewController.swift */,
+				594E96E81F39AD2D0095A99E /* SuspensionMenu.swift */,
+				594E96E41F39ABC70095A99E /* SupensionMenuContainView.swift */,
+				594E97031F3AE5F10095A99E /* SuspensionMenuItemView.swift */,
+				594E96E61F39AC260095A99E /* Tools.swift */,
+				5944C0FD1F3C215A0076FA05 /* 默认图.png */,
+				5944C0F31F3C02750076FA05 /* 取消 (1).png */,
+				5944C0F41F3C02750076FA05 /* 取消 (1)@3x.png */,
+				5944C0F51F3C02750076FA05 /* 取消 (1)@2x.png */,
+				594E96BA1F39AB6F0095A99E /* Main.storyboard */,
+				594E96BD1F39AB6F0095A99E /* Assets.xcassets */,
+				594E96BF1F39AB6F0095A99E /* LaunchScreen.storyboard */,
+				594E96C21F39AB6F0095A99E /* Info.plist */,
+			);
+			path = SuspensionMenu;
+			sourceTree = "<group>";
+		};
+		594E96CA1F39AB6F0095A99E /* SuspensionMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				594E96CB1F39AB6F0095A99E /* SuspensionMenuTests.swift */,
+				594E96CD1F39AB6F0095A99E /* Info.plist */,
+			);
+			path = SuspensionMenuTests;
+			sourceTree = "<group>";
+		};
+		594E96D51F39AB6F0095A99E /* SuspensionMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				594E96D61F39AB6F0095A99E /* SuspensionMenuUITests.swift */,
+				594E96D81F39AB6F0095A99E /* Info.plist */,
+			);
+			path = SuspensionMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		594E96B21F39AB6F0095A99E /* SuspensionMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594E96DB1F39AB6F0095A99E /* Build configuration list for PBXNativeTarget "SuspensionMenu" */;
+			buildPhases = (
+				594E96AF1F39AB6F0095A99E /* Sources */,
+				594E96B01F39AB6F0095A99E /* Frameworks */,
+				594E96B11F39AB6F0095A99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuspensionMenu;
+			productName = SuspensionMenu;
+			productReference = 594E96B31F39AB6F0095A99E /* SuspensionMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		594E96C61F39AB6F0095A99E /* SuspensionMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594E96DE1F39AB6F0095A99E /* Build configuration list for PBXNativeTarget "SuspensionMenuTests" */;
+			buildPhases = (
+				594E96C31F39AB6F0095A99E /* Sources */,
+				594E96C41F39AB6F0095A99E /* Frameworks */,
+				594E96C51F39AB6F0095A99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594E96C91F39AB6F0095A99E /* PBXTargetDependency */,
+			);
+			name = SuspensionMenuTests;
+			productName = SuspensionMenuTests;
+			productReference = 594E96C71F39AB6F0095A99E /* SuspensionMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		594E96D11F39AB6F0095A99E /* SuspensionMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594E96E11F39AB6F0095A99E /* Build configuration list for PBXNativeTarget "SuspensionMenuUITests" */;
+			buildPhases = (
+				594E96CE1F39AB6F0095A99E /* Sources */,
+				594E96CF1F39AB6F0095A99E /* Frameworks */,
+				594E96D01F39AB6F0095A99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594E96D41F39AB6F0095A99E /* PBXTargetDependency */,
+			);
+			name = SuspensionMenuUITests;
+			productName = SuspensionMenuUITests;
+			productReference = 594E96D21F39AB6F0095A99E /* SuspensionMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		594E96AB1F39AB6F0095A99E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "dev.liufeng@gmail";
+				TargetAttributes = {
+					594E96B21F39AB6F0095A99E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = T6A5794LJU;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					594E96C61F39AB6F0095A99E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 594E96B21F39AB6F0095A99E;
+					};
+					594E96D11F39AB6F0095A99E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 594E96B21F39AB6F0095A99E;
+					};
+				};
+			};
+			buildConfigurationList = 594E96AE1F39AB6F0095A99E /* Build configuration list for PBXProject "SuspensionMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 594E96AA1F39AB6F0095A99E;
+			productRefGroup = 594E96B41F39AB6F0095A99E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				594E96B21F39AB6F0095A99E /* SuspensionMenu */,
+				594E96C61F39AB6F0095A99E /* SuspensionMenuTests */,
+				594E96D11F39AB6F0095A99E /* SuspensionMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		594E96B11F39AB6F0095A99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5944C0F61F3C02750076FA05 /* 取消 (1).png in Resources */,
+				5944C0FE1F3C215A0076FA05 /* 默认图.png in Resources */,
+				594E96C11F39AB6F0095A99E /* LaunchScreen.storyboard in Resources */,
+				5944C0F81F3C02750076FA05 /* 取消 (1)@2x.png in Resources */,
+				5944C0F71F3C02750076FA05 /* 取消 (1)@3x.png in Resources */,
+				594E96BE1F39AB6F0095A99E /* Assets.xcassets in Resources */,
+				594E96BC1F39AB6F0095A99E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594E96C51F39AB6F0095A99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594E96D01F39AB6F0095A99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		594E96AF1F39AB6F0095A99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594E96B91F39AB6F0095A99E /* ViewController.swift in Sources */,
+				594E97041F3AE5F10095A99E /* SuspensionMenuItemView.swift in Sources */,
+				594E96E51F39ABC70095A99E /* SupensionMenuContainView.swift in Sources */,
+				594E96E91F39AD2D0095A99E /* SuspensionMenu.swift in Sources */,
+				594E96B71F39AB6F0095A99E /* AppDelegate.swift in Sources */,
+				594E96E71F39AC260095A99E /* Tools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594E96C31F39AB6F0095A99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594E96CC1F39AB6F0095A99E /* SuspensionMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594E96CE1F39AB6F0095A99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594E96D71F39AB6F0095A99E /* SuspensionMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		594E96C91F39AB6F0095A99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594E96B21F39AB6F0095A99E /* SuspensionMenu */;
+			targetProxy = 594E96C81F39AB6F0095A99E /* PBXContainerItemProxy */;
+		};
+		594E96D41F39AB6F0095A99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594E96B21F39AB6F0095A99E /* SuspensionMenu */;
+			targetProxy = 594E96D31F39AB6F0095A99E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		594E96BA1F39AB6F0095A99E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594E96BB1F39AB6F0095A99E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		594E96BF1F39AB6F0095A99E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594E96C01F39AB6F0095A99E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		594E96D91F39AB6F0095A99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		594E96DA1F39AB6F0095A99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		594E96DC1F39AB6F0095A99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = T6A5794LJU;
+				INFOPLIST_FILE = SuspensionMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suspension.com.SuspensionMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		594E96DD1F39AB6F0095A99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = T6A5794LJU;
+				INFOPLIST_FILE = SuspensionMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suspension.com.SuspensionMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		594E96DF1F39AB6F0095A99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuspensionMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suspension.com.SuspensionMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuspensionMenu.app/SuspensionMenu";
+			};
+			name = Debug;
+		};
+		594E96E01F39AB6F0095A99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuspensionMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suspension.com.SuspensionMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuspensionMenu.app/SuspensionMenu";
+			};
+			name = Release;
+		};
+		594E96E21F39AB6F0095A99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SuspensionMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suspension.com.SuspensionMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SuspensionMenu;
+			};
+			name = Debug;
+		};
+		594E96E31F39AB6F0095A99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SuspensionMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suspension.com.SuspensionMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SuspensionMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		594E96AE1F39AB6F0095A99E /* Build configuration list for PBXProject "SuspensionMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594E96D91F39AB6F0095A99E /* Debug */,
+				594E96DA1F39AB6F0095A99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594E96DB1F39AB6F0095A99E /* Build configuration list for PBXNativeTarget "SuspensionMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594E96DC1F39AB6F0095A99E /* Debug */,
+				594E96DD1F39AB6F0095A99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594E96DE1F39AB6F0095A99E /* Build configuration list for PBXNativeTarget "SuspensionMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594E96DF1F39AB6F0095A99E /* Debug */,
+				594E96E01F39AB6F0095A99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594E96E11F39AB6F0095A99E /* Build configuration list for PBXNativeTarget "SuspensionMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594E96E21F39AB6F0095A99E /* Debug */,
+				594E96E31F39AB6F0095A99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 594E96AB1F39AB6F0095A99E /* Project object */;
+}
