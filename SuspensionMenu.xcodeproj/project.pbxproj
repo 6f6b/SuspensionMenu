@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		593E33F21F3D896200EE456C /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 593E33F11F3D896200EE456C /* screenshot.png */; };
 		5944C12E1F3C6E9B0076FA05 /* SupensionMenuContainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944C1251F3C6E9B0076FA05 /* SupensionMenuContainView.swift */; };
 		5944C12F1F3C6E9B0076FA05 /* SuspensionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944C1261F3C6E9B0076FA05 /* SuspensionMenu.swift */; };
 		5944C1301F3C6E9B0076FA05 /* SuspensionMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944C1271F3C6E9B0076FA05 /* SuspensionMenuItemView.swift */; };
@@ -15,7 +16,6 @@
 		5944C1331F3C6E9B0076FA05 /* 取消 (1)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C12B1F3C6E9B0076FA05 /* 取消 (1)@2x.png */; };
 		5944C1341F3C6E9B0076FA05 /* 取消 (1)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C12C1F3C6E9B0076FA05 /* 取消 (1)@3x.png */; };
 		5944C1351F3C6E9B0076FA05 /* 默认图.png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C12D1F3C6E9B0076FA05 /* 默认图.png */; };
-		5944C1391F3D4F300076FA05 /* Simulator Screen Shot 2017年8月11日 上午10.27.42.png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C1381F3D4F300076FA05 /* Simulator Screen Shot 2017年8月11日 上午10.27.42.png */; };
 		594E96B71F39AB6F0095A99E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E96B61F39AB6F0095A99E /* AppDelegate.swift */; };
 		594E96B91F39AB6F0095A99E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E96B81F39AB6F0095A99E /* ViewController.swift */; };
 		594E96BC1F39AB6F0095A99E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594E96BA1F39AB6F0095A99E /* Main.storyboard */; };
@@ -43,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		593E33F11F3D896200EE456C /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		5944C1251F3C6E9B0076FA05 /* SupensionMenuContainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupensionMenuContainView.swift; sourceTree = "<group>"; };
 		5944C1261F3C6E9B0076FA05 /* SuspensionMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuspensionMenu.swift; sourceTree = "<group>"; };
 		5944C1271F3C6E9B0076FA05 /* SuspensionMenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuspensionMenuItemView.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		5944C12B1F3C6E9B0076FA05 /* 取消 (1)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消 (1)@2x.png"; sourceTree = "<group>"; };
 		5944C12C1F3C6E9B0076FA05 /* 取消 (1)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消 (1)@3x.png"; sourceTree = "<group>"; };
 		5944C12D1F3C6E9B0076FA05 /* 默认图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "默认图.png"; sourceTree = "<group>"; };
-		5944C1381F3D4F300076FA05 /* Simulator Screen Shot 2017年8月11日 上午10.27.42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年8月11日 上午10.27.42.png"; sourceTree = "<group>"; };
 		594E96B31F39AB6F0095A99E /* SuspensionMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuspensionMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		594E96B61F39AB6F0095A99E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		594E96B81F39AB6F0095A99E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 		5944C1371F3D4F240076FA05 /* ScreenShots */ = {
 			isa = PBXGroup;
 			children = (
-				5944C1381F3D4F300076FA05 /* Simulator Screen Shot 2017年8月11日 上午10.27.42.png */,
+				593E33F11F3D896200EE456C /* screenshot.png */,
 			);
 			path = ScreenShots;
 			sourceTree = "<group>";
@@ -290,11 +290,11 @@
 				594E96C11F39AB6F0095A99E /* LaunchScreen.storyboard in Resources */,
 				5944C1351F3C6E9B0076FA05 /* 默认图.png in Resources */,
 				5944C1321F3C6E9B0076FA05 /* 取消 (1).png in Resources */,
-				5944C1391F3D4F300076FA05 /* Simulator Screen Shot 2017年8月11日 上午10.27.42.png in Resources */,
 				5944C1331F3C6E9B0076FA05 /* 取消 (1)@2x.png in Resources */,
 				5944C1341F3C6E9B0076FA05 /* 取消 (1)@3x.png in Resources */,
 				594E96BE1F39AB6F0095A99E /* Assets.xcassets in Resources */,
 				594E96BC1F39AB6F0095A99E /* Main.storyboard in Resources */,
+				593E33F21F3D896200EE456C /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
