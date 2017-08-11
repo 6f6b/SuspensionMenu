@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5944C1081F3C3E530076FA05 /* SupensionMenuContainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944C1001F3C3E530076FA05 /* SupensionMenuContainView.swift */; };
-		5944C1091F3C3E530076FA05 /* SuspensionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944C1011F3C3E530076FA05 /* SuspensionMenu.swift */; };
-		5944C10A1F3C3E530076FA05 /* SuspensionMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944C1021F3C3E530076FA05 /* SuspensionMenuItemView.swift */; };
-		5944C10B1F3C3E530076FA05 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944C1031F3C3E530076FA05 /* Tools.swift */; };
-		5944C10C1F3C3E530076FA05 /* 取消 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C1041F3C3E530076FA05 /* 取消 (1).png */; };
-		5944C10D1F3C3E530076FA05 /* 取消 (1)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C1051F3C3E530076FA05 /* 取消 (1)@2x.png */; };
-		5944C10E1F3C3E530076FA05 /* 取消 (1)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C1061F3C3E530076FA05 /* 取消 (1)@3x.png */; };
-		5944C10F1F3C3E530076FA05 /* 默认图.png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C1071F3C3E530076FA05 /* 默认图.png */; };
+		5944C12E1F3C6E9B0076FA05 /* SupensionMenuContainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944C1251F3C6E9B0076FA05 /* SupensionMenuContainView.swift */; };
+		5944C12F1F3C6E9B0076FA05 /* SuspensionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944C1261F3C6E9B0076FA05 /* SuspensionMenu.swift */; };
+		5944C1301F3C6E9B0076FA05 /* SuspensionMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944C1271F3C6E9B0076FA05 /* SuspensionMenuItemView.swift */; };
+		5944C1311F3C6E9B0076FA05 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944C1281F3C6E9B0076FA05 /* Tools.swift */; };
+		5944C1321F3C6E9B0076FA05 /* 取消 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C12A1F3C6E9B0076FA05 /* 取消 (1).png */; };
+		5944C1331F3C6E9B0076FA05 /* 取消 (1)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C12B1F3C6E9B0076FA05 /* 取消 (1)@2x.png */; };
+		5944C1341F3C6E9B0076FA05 /* 取消 (1)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C12C1F3C6E9B0076FA05 /* 取消 (1)@3x.png */; };
+		5944C1351F3C6E9B0076FA05 /* 默认图.png in Resources */ = {isa = PBXBuildFile; fileRef = 5944C12D1F3C6E9B0076FA05 /* 默认图.png */; };
 		594E96B71F39AB6F0095A99E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E96B61F39AB6F0095A99E /* AppDelegate.swift */; };
 		594E96B91F39AB6F0095A99E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E96B81F39AB6F0095A99E /* ViewController.swift */; };
 		594E96BC1F39AB6F0095A99E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594E96BA1F39AB6F0095A99E /* Main.storyboard */; };
@@ -42,14 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5944C1001F3C3E530076FA05 /* SupensionMenuContainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupensionMenuContainView.swift; sourceTree = "<group>"; };
-		5944C1011F3C3E530076FA05 /* SuspensionMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuspensionMenu.swift; sourceTree = "<group>"; };
-		5944C1021F3C3E530076FA05 /* SuspensionMenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuspensionMenuItemView.swift; sourceTree = "<group>"; };
-		5944C1031F3C3E530076FA05 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
-		5944C1041F3C3E530076FA05 /* 取消 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消 (1).png"; sourceTree = "<group>"; };
-		5944C1051F3C3E530076FA05 /* 取消 (1)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消 (1)@2x.png"; sourceTree = "<group>"; };
-		5944C1061F3C3E530076FA05 /* 取消 (1)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消 (1)@3x.png"; sourceTree = "<group>"; };
-		5944C1071F3C3E530076FA05 /* 默认图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "默认图.png"; sourceTree = "<group>"; };
+		5944C1251F3C6E9B0076FA05 /* SupensionMenuContainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupensionMenuContainView.swift; sourceTree = "<group>"; };
+		5944C1261F3C6E9B0076FA05 /* SuspensionMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuspensionMenu.swift; sourceTree = "<group>"; };
+		5944C1271F3C6E9B0076FA05 /* SuspensionMenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuspensionMenuItemView.swift; sourceTree = "<group>"; };
+		5944C1281F3C6E9B0076FA05 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		5944C12A1F3C6E9B0076FA05 /* 取消 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消 (1).png"; sourceTree = "<group>"; };
+		5944C12B1F3C6E9B0076FA05 /* 取消 (1)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消 (1)@2x.png"; sourceTree = "<group>"; };
+		5944C12C1F3C6E9B0076FA05 /* 取消 (1)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消 (1)@3x.png"; sourceTree = "<group>"; };
+		5944C12D1F3C6E9B0076FA05 /* 默认图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "默认图.png"; sourceTree = "<group>"; };
 		594E96B31F39AB6F0095A99E /* SuspensionMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuspensionMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		594E96B61F39AB6F0095A99E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		594E96B81F39AB6F0095A99E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,24 +90,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5944C0FF1F3C3E530076FA05 /* SuspensionMenu */ = {
+		5944C1241F3C6E9B0076FA05 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5944C1001F3C3E530076FA05 /* SupensionMenuContainView.swift */,
-				5944C1011F3C3E530076FA05 /* SuspensionMenu.swift */,
-				5944C1021F3C3E530076FA05 /* SuspensionMenuItemView.swift */,
-				5944C1031F3C3E530076FA05 /* Tools.swift */,
-				5944C1041F3C3E530076FA05 /* 取消 (1).png */,
-				5944C1051F3C3E530076FA05 /* 取消 (1)@2x.png */,
-				5944C1061F3C3E530076FA05 /* 取消 (1)@3x.png */,
-				5944C1071F3C3E530076FA05 /* 默认图.png */,
+				5944C1251F3C6E9B0076FA05 /* SupensionMenuContainView.swift */,
+				5944C1261F3C6E9B0076FA05 /* SuspensionMenu.swift */,
+				5944C1271F3C6E9B0076FA05 /* SuspensionMenuItemView.swift */,
+				5944C1281F3C6E9B0076FA05 /* Tools.swift */,
 			);
-			path = SuspensionMenu;
+			name = Classes;
+			path = SuspensionMenu/Classes;
+			sourceTree = "<group>";
+		};
+		5944C1291F3C6E9B0076FA05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5944C12A1F3C6E9B0076FA05 /* 取消 (1).png */,
+				5944C12B1F3C6E9B0076FA05 /* 取消 (1)@2x.png */,
+				5944C12C1F3C6E9B0076FA05 /* 取消 (1)@3x.png */,
+				5944C12D1F3C6E9B0076FA05 /* 默认图.png */,
+			);
+			name = Resources;
+			path = SuspensionMenu/Resources;
 			sourceTree = "<group>";
 		};
 		594E96AA1F39AB6F0095A99E = {
 			isa = PBXGroup;
 			children = (
+				5944C1241F3C6E9B0076FA05 /* Classes */,
+				5944C1291F3C6E9B0076FA05 /* Resources */,
 				594E96B51F39AB6F0095A99E /* SuspensionMenu */,
 				594E96CA1F39AB6F0095A99E /* SuspensionMenuTests */,
 				594E96D51F39AB6F0095A99E /* SuspensionMenuUITests */,
@@ -130,7 +141,6 @@
 			children = (
 				594E96B61F39AB6F0095A99E /* AppDelegate.swift */,
 				594E96B81F39AB6F0095A99E /* ViewController.swift */,
-				5944C0FF1F3C3E530076FA05 /* SuspensionMenu */,
 				594E96BA1F39AB6F0095A99E /* Main.storyboard */,
 				594E96BD1F39AB6F0095A99E /* Assets.xcassets */,
 				594E96BF1F39AB6F0095A99E /* LaunchScreen.storyboard */,
@@ -267,10 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				594E96C11F39AB6F0095A99E /* LaunchScreen.storyboard in Resources */,
-				5944C10F1F3C3E530076FA05 /* 默认图.png in Resources */,
-				5944C10C1F3C3E530076FA05 /* 取消 (1).png in Resources */,
-				5944C10D1F3C3E530076FA05 /* 取消 (1)@2x.png in Resources */,
-				5944C10E1F3C3E530076FA05 /* 取消 (1)@3x.png in Resources */,
+				5944C1351F3C6E9B0076FA05 /* 默认图.png in Resources */,
+				5944C1321F3C6E9B0076FA05 /* 取消 (1).png in Resources */,
+				5944C1331F3C6E9B0076FA05 /* 取消 (1)@2x.png in Resources */,
+				5944C1341F3C6E9B0076FA05 /* 取消 (1)@3x.png in Resources */,
 				594E96BE1F39AB6F0095A99E /* Assets.xcassets in Resources */,
 				594E96BC1F39AB6F0095A99E /* Main.storyboard in Resources */,
 			);
@@ -298,11 +308,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				594E96B91F39AB6F0095A99E /* ViewController.swift in Sources */,
-				5944C1081F3C3E530076FA05 /* SupensionMenuContainView.swift in Sources */,
+				5944C12E1F3C6E9B0076FA05 /* SupensionMenuContainView.swift in Sources */,
 				594E96B71F39AB6F0095A99E /* AppDelegate.swift in Sources */,
-				5944C10B1F3C3E530076FA05 /* Tools.swift in Sources */,
-				5944C1091F3C3E530076FA05 /* SuspensionMenu.swift in Sources */,
-				5944C10A1F3C3E530076FA05 /* SuspensionMenuItemView.swift in Sources */,
+				5944C1311F3C6E9B0076FA05 /* Tools.swift in Sources */,
+				5944C12F1F3C6E9B0076FA05 /* SuspensionMenu.swift in Sources */,
+				5944C1301F3C6E9B0076FA05 /* SuspensionMenuItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
