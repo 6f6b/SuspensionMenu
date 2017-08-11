@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SuspensionMenu"
-  s.version      = "1.0.1"
+  s.version      = "1.0.3"
   s.summary      = "Suspension Menu Sina"
   s.description  = <<-DESC
 
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/LincLiu/SuspensionMenu.git", :tag => s.version }
   s.source_files  = "Classes/*.swift"
-  s.resources    = "Resources/*.png"
+  s.resources    = "Resources.bundle"
   s.frameworks   = "UIKit"
   s.requires_arc = true
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }

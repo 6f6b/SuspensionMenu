@@ -26,7 +26,9 @@ class SuspensionMenuItemView: UIView {
             if let img = UIImage.init(named: tmpImgName){
                 self.imgV.image = img
             }else{
-                imgV.image = UIImage.init(named: "默认图")
+                let path = Bundle.main.resourcePath?.appending("/Resources.bundle/默认图")
+                
+                imgV.image = UIImage.init(contentsOfFile: path!)
             }
         }
         self.addSubview(imgV)

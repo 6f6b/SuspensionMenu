@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SuspensionMenu: NSObject {
+open class SuspensionMenu: NSObject {
     override init() {
         super.init()
     }
