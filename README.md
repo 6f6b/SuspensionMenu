@@ -1,6 +1,8 @@
 # SuspensionMenu
 仿新浪微博的发布菜单，三行代码即可简单实现
 
+![Simulator Screen Shot 2017年8月11日 上午10.48.09](/Users/yk/Desktop/Simulator Screen Shot 2017年8月11日 上午10.48.09.png)
+
 Usage
 =====
 
