@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5932616D1F3DB10600B50046 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5932616C1F3DB10600B50046 /* Resources.bundle */; };
+		593261701F4133F900B50046 /* SuspensionMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5932616F1F4133F900B50046 /* SuspensionMenu.bundle */; };
 		593E33F21F3D896200EE456C /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 593E33F11F3D896200EE456C /* screenshot.png */; };
 		5944C12E1F3C6E9B0076FA05 /* SupensionMenuContainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944C1251F3C6E9B0076FA05 /* SupensionMenuContainView.swift */; };
 		5944C12F1F3C6E9B0076FA05 /* SuspensionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5944C1261F3C6E9B0076FA05 /* SuspensionMenu.swift */; };
@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5932616C1F3DB10600B50046 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		5932616F1F4133F900B50046 /* SuspensionMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SuspensionMenu.bundle; sourceTree = "<group>"; };
 		593E33F11F3D896200EE456C /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		5944C1251F3C6E9B0076FA05 /* SupensionMenuContainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupensionMenuContainView.swift; sourceTree = "<group>"; };
 		5944C1261F3C6E9B0076FA05 /* SuspensionMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuspensionMenu.swift; sourceTree = "<group>"; };
@@ -86,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5932616E1F4133F900B50046 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5932616F1F4133F900B50046 /* SuspensionMenu.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		5944C1241F3C6E9B0076FA05 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +117,7 @@
 		594E96AA1F39AB6F0095A99E = {
 			isa = PBXGroup;
 			children = (
-				5932616C1F3DB10600B50046 /* Resources.bundle */,
+				5932616E1F4133F900B50046 /* Resources */,
 				5944C1241F3C6E9B0076FA05 /* Classes */,
 				5944C1371F3D4F240076FA05 /* ScreenShots */,
 				594E96B51F39AB6F0095A99E /* SuspensionMenu */,
@@ -269,8 +277,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5932616D1F3DB10600B50046 /* Resources.bundle in Resources */,
 				594E96C11F39AB6F0095A99E /* LaunchScreen.storyboard in Resources */,
+				593261701F4133F900B50046 /* SuspensionMenu.bundle in Resources */,
 				594E96BE1F39AB6F0095A99E /* Assets.xcassets in Resources */,
 				594E96BC1F39AB6F0095A99E /* Main.storyboard in Resources */,
 				593E33F21F3D896200EE456C /* screenshot.png in Resources */,
