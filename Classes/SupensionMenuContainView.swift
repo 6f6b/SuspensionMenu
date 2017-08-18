@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//到时看看这儿变没
 class SupensionMenuContainView: UIVisualEffectView {
     var itemBlock:((_ index:Int)->Void)?
     var scrollView:UIScrollView!
@@ -80,7 +80,9 @@ class SupensionMenuContainView: UIVisualEffectView {
         var frame = cancelBtn.frame
         frame.origin.y = SCREEN_HEIGHT-60
         cancelBtn.frame = frame
-        cancelBtn.setImage(UIImage.init(named: "取消 (1)"), for: .normal)
+        let path = Bundle.main.resourcePath?.appending("/Resources.bundle/取消 (1)")
+        let image = UIImage.init(contentsOfFile: path!)
+        cancelBtn.setImage(image, for: .normal)
         cancelBtn.contentMode = .center
         cancelBtn.addTarget(self, action: #selector(dealCanceled), for: .touchUpInside)
         self.addSubview(cancelBtn)
