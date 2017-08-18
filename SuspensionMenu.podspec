@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SuspensionMenu"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
   s.summary      = "Suspension Menu Sina"
   s.description  = <<-DESC
 

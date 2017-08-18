@@ -20,6 +20,7 @@
 		594E96C11F39AB6F0095A99E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594E96BF1F39AB6F0095A99E /* LaunchScreen.storyboard */; };
 		594E96CC1F39AB6F0095A99E /* SuspensionMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E96CB1F39AB6F0095A99E /* SuspensionMenuTests.swift */; };
 		594E96D71F39AB6F0095A99E /* SuspensionMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E96D61F39AB6F0095A99E /* SuspensionMenuUITests.swift */; };
+		59CA8FDD1F467BBA0006ED5B /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CA8FDC1F467BBA0006ED5B /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		594E96D21F39AB6F0095A99E /* SuspensionMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspensionMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		594E96D61F39AB6F0095A99E /* SuspensionMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspensionMenuUITests.swift; sourceTree = "<group>"; };
 		594E96D81F39AB6F0095A99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59CA8FDC1F467BBA0006ED5B /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				5944C1261F3C6E9B0076FA05 /* SuspensionMenu.swift */,
 				5944C1251F3C6E9B0076FA05 /* SupensionMenuContainView.swift */,
 				5944C1271F3C6E9B0076FA05 /* SuspensionMenuItemView.swift */,
+				59CA8FDC1F467BBA0006ED5B /* test.swift */,
 				5944C1281F3C6E9B0076FA05 /* Tools.swift */,
 			);
 			name = Classes;
@@ -312,6 +315,7 @@
 				5944C1311F3C6E9B0076FA05 /* Tools.swift in Sources */,
 				5944C12F1F3C6E9B0076FA05 /* SuspensionMenu.swift in Sources */,
 				5944C1301F3C6E9B0076FA05 /* SuspensionMenuItemView.swift in Sources */,
+				59CA8FDD1F467BBA0006ED5B /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
