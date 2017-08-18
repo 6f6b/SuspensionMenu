@@ -80,7 +80,7 @@ class SupensionMenuContainView: UIVisualEffectView {
         var frame = cancelBtn.frame
         frame.origin.y = SCREEN_HEIGHT-60
         cancelBtn.frame = frame
-        let path = Bundle.main.resourcePath?.appending("/Resources.bundle/取消 (1)")
+        let path = Bundle.main.resourcePath?.appending("/SuspensionMenu.bundle/取消 (1)")
         let image = UIImage.init(contentsOfFile: path!)
         cancelBtn.setImage(image, for: .normal)
         cancelBtn.contentMode = .center

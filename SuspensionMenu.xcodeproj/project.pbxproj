@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		591FE1261F46CBDB00F53B3B /* fuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591FE1251F46CBDB00F53B3B /* fuck.swift */; };
 		593261701F4133F900B50046 /* SuspensionMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5932616F1F4133F900B50046 /* SuspensionMenu.bundle */; };
 		593E33F21F3D896200EE456C /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 593E33F11F3D896200EE456C /* screenshot.png */; };
 		594E96B71F39AB6F0095A99E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594E96B61F39AB6F0095A99E /* AppDelegate.swift */; };
@@ -41,7 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		591FE1251F46CBDB00F53B3B /* fuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fuck.swift; sourceTree = "<group>"; };
 		5932616F1F4133F900B50046 /* SuspensionMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SuspensionMenu.bundle; sourceTree = "<group>"; };
 		593E33F11F3D896200EE456C /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		594E96B31F39AB6F0095A99E /* SuspensionMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuspensionMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,7 +163,6 @@
 				59CA8FEE1F46BB180006ED5B /* SuspensionMenu.swift */,
 				59CA8FEF1F46BB180006ED5B /* SuspensionMenuItemView.swift */,
 				59CA8FF11F46BB180006ED5B /* Tools.swift */,
-				591FE1251F46CBDB00F53B3B /* fuck.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -309,7 +306,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				594E96B91F39AB6F0095A99E /* ViewController.swift in Sources */,
-				591FE1261F46CBDB00F53B3B /* fuck.swift in Sources */,
 				59CA8FF21F46BB180006ED5B /* SupensionMenuContainView.swift in Sources */,
 				594E96B71F39AB6F0095A99E /* AppDelegate.swift in Sources */,
 				59CA8FF61F46BB180006ED5B /* Tools.swift in Sources */,
