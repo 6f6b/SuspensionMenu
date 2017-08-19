@@ -80,8 +80,13 @@ class SupensionMenuContainView: UIVisualEffectView {
         var frame = cancelBtn.frame
         frame.origin.y = SCREEN_HEIGHT-60
         cancelBtn.frame = frame
-        let path = Bundle.main.resourcePath?.appending("/SuspensionMenu.bundle/取消 (1)")
-        let image = UIImage.init(contentsOfFile: path!)
+        
+        let framework = Bundle.init(for: SuspensionMenu.classForCoder())
+        let bundlePath = framework.path(forResource: "SuspensionMenu", ofType: "bundle")
+        let bundle = Bundle.init(path: bundlePath!)
+        let filePath = bundle?.path(forResource: "取消 (1)", ofType: "png")
+        let image = UIImage.init(contentsOfFile: filePath!)
+        
         cancelBtn.setImage(image, for: .normal)
         cancelBtn.contentMode = .center
         cancelBtn.addTarget(self, action: #selector(dealCanceled), for: .touchUpInside)
